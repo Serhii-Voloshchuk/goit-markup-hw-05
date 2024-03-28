@@ -430,12 +430,15 @@
 <div class="subscribe">
   <p class="subscribe-paragraph social-media-paragraph">Subscribe</p> 
     <form action="" class="input-mail-button">
-      <input class="input-mail" type="mail" placeholder="E-mail">
-      <button class="button-subscribe" type="submit">Subscribe 
-        <svg class="button-subscribe-icon" width="24" height="20">
-          <use href="./images/icons.svg#icon-icon-send"></use>
-        </svg>
-      </button>
+      <label class="input-mail-botton-label" for="">
+        <input class="input-mail" type="email" placeholder="E-mail">
+        <button class="button-subscribe" type="submit">Subscribe 
+          <svg class="button-subscribe-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-icon-send"></use>
+          </svg>
+        </button>
+      </label>
+
     </form>
   </div>
 </div>
@@ -444,26 +447,30 @@
     </footer>
             <div class="modal-overlay">
           <div class="modal">
-            <div class="button-element">
-              <div class="button-close">
-                <svg class="button-close-icon" width="8" height="8">
+            <button class="button-element" type="button">
+              <svg class="button-close-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
+            </button>
+            <p class="overlay-paragraph-item">Leave your contacts and we will call you back</p>
     </div>
             </div>
-                          <form>
+                <form>
+                  <div class="form-container">
+                    <label class="label" for="user-name"> Name
+                      
+                      <div class="input-container">
+                       <input class="input" id="user-name" type="text" name="username" placeholder="">
+                       <svg class="input-icon" width="13" height="13">
+                         <use href="./images/icons.svg#icon-person"></use>
+                       </svg>
+                      </div>
+   
+                     </label>
+                  </div>
                 <fieldset>
-                  <legend><p class="overlay-paragraph-item">Leave your contacts and we will call you back</p></legend>
-                  <label class="label">
-                   <p class="overlay-paragraph">Name</p> 
-                   <div class="input-container">
-                    <input class="input" type="text" name="username" placeholder="">
-                    <svg class="input-icon" width="13" height="13">
-                      <use href="./images/icons.svg#icon-person"></use>
-                    </svg>
-                   </div>
-
-                  </label>
+                  <legend></legend>
+                 
                   <label>
                     <p class="overlay-paragraph">Phone</p> 
                     <div class="input-container">
