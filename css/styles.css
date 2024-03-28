@@ -580,20 +580,20 @@ footer {
   fill: #F4F4FD;
 }
 
-.subscribe{
+.subscribe {
   margin-left: 80px;
 }
 
-.subscribe-paragraph{
+.subscribe-paragraph {
   margin-bottom: 16px;
 }
 
-.input-mail-button{
+.input-mail-button {
   display: flex;
   flex-direction: row;
 }
 
-.input-mail{
+.input-mail {
   outline: none;
   border: solid 1px #FFFFFF;
   border-radius: 4px;
@@ -605,20 +605,20 @@ footer {
   margin-right: 24px;
 }
 
-.input-mail::placeholder{
+.input-mail::placeholder {
   color: #FFFFFF;
   font-size: 12px;
   line-height: 24px;
 }
 
-.button-subscribe{
+.button-subscribe {
   display: flex;
   align-items: center;
   background-color: #4D5AE5;
   padding: 8px 24px;
   border-radius: 4px;
   gap: 16px;
-  color:#FFFFFF;
+  color: #FFFFFF;
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -626,7 +626,7 @@ footer {
   letter-spacing: 0.04em;
 }
 
-.button-subscribe-icon{
+.button-subscribe-icon {
   fill: #FFFFFF;
 }
 
