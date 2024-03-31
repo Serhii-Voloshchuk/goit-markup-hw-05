@@ -696,14 +696,16 @@ footer {
 }
 
 .button-element:hover,
+.button-element:focus,
 .button-element:active{
   background-color: #404bbf;
   border: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-element:hover .button-close-icon,
-.button-element:active .button-close-icon {
+.button-element:hover + .button-close-icon,
+.button-element:focus + .button-close-icon,
+.button-element:active + .button-close-icon {
   fill: #ffffff;
 }
 
@@ -742,30 +744,26 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 4px;
 }
 
-.input-container{
-  position: relative;
-}
+
 
 
 
 .input-container {
   position: relative;
   padding-bottom: 8px;
-}
-
-
-
-.input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   border-radius: 4px;
-  outline: none;
+  outline: transparent;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+
+
+
+
 
 .input:focus,
 .input:focus {
@@ -815,7 +813,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .form-container.checkbox {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .checkbox-label{
@@ -838,7 +836,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
 
-.checkbox:checked + .checkbox-container{
+.input:checked + .checkbox-container{
   background-color: #404BBF;
   border: none;
   fill:  #F4F4FD;
