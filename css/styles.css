@@ -703,11 +703,12 @@ footer {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-element:hover + .button-close-icon,
-.button-element:focus + .button-close-icon,
-.button-element:active + .button-close-icon {
+.button-element:hover > .button-close-icon,
+.button-element:focus > .button-close-icon {
   fill: #ffffff;
 }
+
+/* .button-element:active + .button-close-icon */
 
 .button-close-icon {
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -776,7 +777,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input:focus + .input-icon,
-.input:focus + .input-icon {
+.input:active + .input-icon {
   fill: #4D5AE5;
 }
 
@@ -820,6 +821,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 24px;
 }
 
+.form-container.textarea-margin{
+  margin-bottom: 16px;
+}
+
 .checkbox-label{
   font-size: 12px;
   line-height: 1.17;
@@ -840,7 +845,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
 
-.input.visually-hidden:checked + .checkbox-container{
+.input.visually-hidden:checked > .checkbox-container{
   background-color: #404BBF;
   border: none;
   fill:  #F4F4FD;
@@ -850,4 +855,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .privacy-policy-link {
   color: #4D5AE5;
+}
+
+.modal-overlay{
+  display: ;
 }
