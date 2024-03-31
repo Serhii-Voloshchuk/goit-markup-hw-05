@@ -838,7 +838,7 @@ footer {
   fill: transparent;
 }
 
-.input-checkbox:checked + .checkbox-label .checkbox-container {
+.input:checked + .checkbox-label .checkbox-container {
   background-color: #404BBF;
   border: none;
   fill: #F4F4FD;
