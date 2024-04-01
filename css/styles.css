@@ -604,7 +604,7 @@ footer {
   width: 264px;
   height: 40px;
   background-color: transparent;
-  margin-right: 24px;
+
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -720,7 +720,6 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
   text-align: center;
   color: #2E2F42;
   margin-bottom: 16px;
